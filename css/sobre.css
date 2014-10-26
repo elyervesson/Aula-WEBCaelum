@@ -1,0 +1,89 @@
+
+/* alteração da cor e fonte do body */
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* adição de um fundo estampado no titulo principal h1 */
+h1 {
+    background-image: url("../img/sobre-background.jpg");
+}
+
+/* adição de uma borda(linha abaixo do h2) nos sub-titulos h2 */
+h2 {
+    border-bottom: 2px solid #333333;
+}
+
+/* adição de um fundo cinza, uma pequena borda e alinhamento da legenda */
+figure {
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* alteração do texo para italico */
+figcaption {
+    font-style: italic;
+}
+
+/* alteração no espaçamento do titulo(h1) */
+h1 {
+    padding: 10px;
+}
+
+/* alteração na margem superior dos sub-titulos(h2) */
+h2 {
+    margin-top: 30px;
+}
+
+/* alteração no espaçamento dos paragrafos e adição de um espaçamento no inicio de cada paragrafo */
+p {
+    padding: 0px 45px;
+    text-indent: 15px;
+}
+
+/* alteração no espaçamento e margem das figuras */
+figure {
+    padding: 0px 45px;
+    margin: 30px;
+}
+
+/* adição de uma margem supeior as legendas */
+figcaption {
+    margin-top: 10px;
+}
+/* alteração na largura da pagina */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+
+/* estilização da imagem do centro de distribuição para melhor se adequar a pagina */
+#centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+/* alteração na posição do rodapeda da pagina */
+#rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+/* alterção no tamanho da imagem e modificação na sua posição(alterado para ficar na mesma linha do texto) */
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+/* alteração na localização da imagem para que o texto possa ficar ao lado da imagem */
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+    padding: 10px 10px;
+}
