@@ -1,0 +1,18 @@
+Observações da apostila
+
+Adição de atributos na tag
+
+Ex: <img src="../imagens/casa_de_praia.jpg"> - Para adicionar uma imagem no diretorio (src) especificado
+
+Especificação do padrão utilizado
+
+Ex: <meta charset="utf-8"> - Para 'setar' para o navegador que o padrão sera UTF-8 (uso de acentuação e etc)
+
+Tags:
+
+<h1> - Titulo
+<p> - Paragrafo
+<strong> - Negrito
+<em> - Italico
+<figure> - Define uma imagem com a conhecida tag <img>
+<figcaption> - Legenda para a imagem
