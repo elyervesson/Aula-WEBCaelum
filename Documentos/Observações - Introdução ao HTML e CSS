@@ -20,6 +20,9 @@ Tags:
 <ul> - Listas sem ordenação(sem numeros)
 <ol> - Listas com ordenação(com numeros)
 <a href="#info"> - Atalho para outro local da mesma pagina que possue o id info(Ex: <h2 id="info">)
+<header> - Div especifica para cabeçarios
+<footer> - Div especifica para rodapé
+<nav> - Seção de links de navegação.
 
 CSS - cores
 
@@ -32,3 +35,5 @@ padding - Usado para espaçamentos, uma especie de 'margem interna'
 margin - Usado para margens
 height - Usado para delimitar a altura de um elemento
 width - Usando para delimitar a largura de um elemento
+Block - Em bloco (ocupam toda a largura do documento)
+Inline - Em linha (ocupam somente o espaço necessário para que seu próprio conteúdo seja exibido)

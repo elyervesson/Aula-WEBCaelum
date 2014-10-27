@@ -1,0 +1,40 @@
+/* adição da figura da sacola no site */
+.sacola {
+    background: url(../img/sacola.png) no-repeat top right;
+
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+}
+
+/* diminuição no tamanho da fonte do menu opcoes */
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+/* alteração na cor da fonte do menu opções (para azul escuro) */
+.menu-opcoes a {
+    color: #003366;
+}
+
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* colocado os links lado a lado e alterado o espaçamento entre eles */
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.sacola {
+    padding-top: 8px;
+}
+
+/* centralização dos elementos da pagina */
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
