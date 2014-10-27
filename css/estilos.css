@@ -38,3 +38,82 @@ body {
     margin: 0 auto;
     width: 940px;
 }
+
+header {
+    position: relative;
+}
+
+/* menu voltou para a posição que deveria ficar top e right */
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* imagem da sacola voltou para a posição que deveria ficar top e right */
+.sacola {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* FIM DO CABEÇARIO */
+
+/* Alteração no plano de fundo do menu nav e no estilo das letras */
+.busca,
+.menu-departamentos {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-right: 10px;
+    width: 230px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    margin: 10px;
+}
+
+/* Adição de uma listra a baixo de cada nav e alteração no espaçamento */
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+/* alteração na cor das letras e retirada do inderline dos navs */
+.menu-departamentos a {
+    color: #333333;
+    text-decoration: none;
+}
+
+/* alinhamento da lupa com a caixa de texto */
+.busca input {
+    vertical-align: middle;
+}
+
+.busca input[type=search] {
+    width: 170px;
+}
+
+/* faz com que os menus flutuem para esquerda possibilitando assim que mais conteudo possa
+   ficar ao lado desses menus */
+.busca,
+.menu-departamentos {
+    float: left;
+}
+
+.menu-departamentos {
+    clear: left;
+}
+
+.destaque {
+    margin-top: 10px;
+}
+
+.menu-departamentos {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}

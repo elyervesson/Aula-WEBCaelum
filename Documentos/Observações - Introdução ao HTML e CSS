@@ -23,6 +23,8 @@ Tags:
 <header> - Div especifica para cabeçarios
 <footer> - Div especifica para rodapé
 <nav> - Seção de links de navegação.
+<form>  - Captura os dados do usuário e submete a algum serviço da internet.
+<input> - Recebe os dados digitados ou submete o formulário.
 
 CSS - cores
 
@@ -37,3 +39,11 @@ height - Usado para delimitar a altura de um elemento
 width - Usando para delimitar a largura de um elemento
 Block - Em bloco (ocupam toda a largura do documento)
 Inline - Em linha (ocupam somente o espaço necessário para que seu próprio conteúdo seja exibido)
+position - Determina qual é o modo de posicionamento de um elemento
+    static - Permanece sempre em seu local original no documento
+    relative - As coordenadas que passamos são obedecidas em relação à posição original do elemento
+    absolute - Toma como referência qualquer elemento que seja seu pai na estrutura do HTML
+text-transform uppercase - Todas as letras em maiúsculo;
+               lowercase - Todas as letras em minúsculo;
+               capitalize - Só as primeiras letras das palavras em maiúsculo.
+text-decoration: none - Retira todas as decorações do texto

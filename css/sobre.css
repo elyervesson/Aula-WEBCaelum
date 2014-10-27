@@ -39,13 +39,13 @@ h2 {
 
 /* alteração no espaçamento dos paragrafos e adição de um espaçamento no inicio de cada paragrafo */
 p {
-    padding: 0px 45px;
+    padding: 0 45px;
     text-indent: 15px;
 }
 
 /* alteração no espaçamento e margem das figuras */
 figure {
-    padding: 0px 45px;
+    padding: 0 45px;
     margin: 30px;
 }
 
